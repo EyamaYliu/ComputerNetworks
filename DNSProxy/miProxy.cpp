@@ -201,7 +201,7 @@ int main(int argc, char *argv[])
 	strcpy(dns_ip,argv[4]);
     int dns_port = atoi(argv[5]);
     char www_ip[20];
-    strcpy(www_ip,"video.cse.umich.edu");
+    strcpy(www_ip,"video.cs.jhu.edu");
     if (argc == 7)
     {
         strcpy(www_ip,argv[6]);
